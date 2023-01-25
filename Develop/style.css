@@ -1,53 +1,68 @@
-
-
 .hero {
   background-image: url(../Assets/pexels-pixabay-531880.jpg);
   background-blend-mode: lighten;
   background-color: midnightblue;
 }
-.display-3 {
-  font-family: cursive;
-  color: #ffffff;
-}
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "cursive";
   font-size: 16px;
-}
-.lead {
-  color: #ffffff;
-  font-family: cursive;
+  line-height: 1;
 }
 
-textarea {
+
+textarea{
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: black;
   border-left: 1px solid black;
   padding: 10px;
-  font-family: cursive;
 }
 
-.description {
+.jumbotron {
+  text-align: left;
+  font-family: "cursive";
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+
+}
+
+.col-md-1 {
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  
+}
+
+.description{
   white-space: pre-wrap;
 }
 
-.time-block {
+.time-block{
+  text-align: left;
   border-radius: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 12px;
+  display: flex;
 }
 
 .row {
-  border-top: 1px solid white;
+  white-space: pre-wrap;
+  border-top: 1px solid;
+  height: 80px;
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: white;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #a7a5a5;
   color: white;
 }
 
@@ -65,17 +80,11 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #0088f7;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
-
-#date {
-  font-size: larger;
-  font-family: cursive;
-  color: #ffffff;
+  transition: all .3s ease-in-out;
 }
