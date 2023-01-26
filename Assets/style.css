@@ -1,12 +1,9 @@
-.hero {
-  background-image: url(../Assets/pexels-pixabay-531880.jpg);
-  background-blend-mode: lighten;
-  background-color: midnightblue;
-}
+
 body {
   font-family: "cursive";
   font-size: 16px;
   line-height: 1;
+  background-color: midnightblue;
 }
 
 
@@ -20,7 +17,7 @@ textarea{
 }
 
 .jumbotron {
-  text-align: left;
+  text-align: center;
   font-family: "cursive";
   background-color: transparent;
   color: black;
