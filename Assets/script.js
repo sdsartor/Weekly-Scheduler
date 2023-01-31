@@ -7,9 +7,9 @@ $(document).ready(function () {
   
       console.log(this);
       var textlog = $(this).siblings(".description").val();
-      var timetracker = $(this).parent().attr("id"); 
+      var time = $(this).parent().attr("id"); 
 
-      localStorage.setItem(timetracker, textlog);
+      localStorage.setItem(time, textlog);
   })
   
   $("#hour8 .description").val(localStorage.getItem("hour8"));
@@ -31,7 +31,7 @@ $(document).ready(function () {
   $("#hour24 .description").val(localStorage.getItem("hour24"));
 
 
-  function hourTracker() {
+  function hour() {
  
       var currentHour = moment().hour();
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
           }
       })
   }
-  hourTracker();
+  hour();
 })
 
 
